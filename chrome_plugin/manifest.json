@@ -1,0 +1,28 @@
+{
+  "name": "Freshassist",
+  "version": "1.0.0",
+  "description": "Helper extension for Freshproducts!",
+  "permissions": ["activeTab", "declarativeContent", "storage","notifications"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_title": "Freshassist",
+    "default_icon": {
+      "16": "images/freshworks-dew.png",
+      "32": "images/freshworks-dew.png",
+      "48": "images/freshworks-dew.png",
+      "128": "images/freshworks-dew.png"
+    }
+  },
+  "icons": {
+    "16": "images/freshworks-dew.png",
+    "32": "images/freshworks-dew.png",
+    "48": "images/freshworks-dew.png",
+    "128": "images/freshworks-dew.png"
+  },
+  "manifest_version": 2
+}
